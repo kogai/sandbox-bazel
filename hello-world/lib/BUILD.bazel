@@ -1,4 +1,4 @@
 load("@bazel_gazelle//:def.bzl", "gazelle")
 
-# gazelle:prefix app
+# gazelle:prefix lib
 gazelle(name = "gazelle")

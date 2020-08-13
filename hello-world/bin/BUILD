@@ -1,3 +1,4 @@
+# load("@io_bazel_rules_go//go:def.bzl", "go_binary", "go_library", "go_path")
 load("@io_bazel_rules_go//go:def.bzl", "go_binary", "go_library")
 
 go_library(
@@ -16,3 +17,10 @@ go_binary(
     embed = [":go_default_library"],
     visibility = ["//visibility:public"],
 )
+
+# go_path(
+#     name = "mypath",
+#     # mode = "archive",
+#     deps = ["bin"]
+# )
+

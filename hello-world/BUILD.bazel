@@ -2,3 +2,13 @@ load("@bazel_gazelle//:def.bzl", "gazelle")
 
 # gazelle:prefix app
 gazelle(name = "gazelle")
+
+load("@io_bazel_rules_go//go:def.bzl", "go_path")
+
+go_path(
+  name = "gopath",
+  mode = "copy",
+  deps = ["//bin:bin"],
+  # //directoryname:package-name
+)
+

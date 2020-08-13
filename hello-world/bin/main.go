@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	lib "app/uuid"
+	lib "lib/uuid"
 
 	uuid "github.com/satori/go.uuid"
 )
