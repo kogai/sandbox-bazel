@@ -31,6 +31,6 @@ gazelle_dependencies()
 go_repository(
     name = "com_github_satori_go_uuid",
     importpath = "github.com/satori/go.uuid",
-    sum = "h1:0uYX9dsZ2yD7q2RtLRtPSdGDWzjeM3TbMJP9utgA0ww=",
-    version = "v1.2.0",
+    sum = "h1:B9KXyj+GzIpJbV7gmr873NsY6zpbxNy24CBtGrk7jHo=",
+    version = "v1.1.0",
 )
